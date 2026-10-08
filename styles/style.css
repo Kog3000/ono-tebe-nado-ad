@@ -19,7 +19,6 @@
 }
 
 .header-address {
-  max-width: 240px;
   justify-self: end;
 }
 
@@ -94,7 +93,6 @@
 }
 
 .lots-list {
-  list-style: none;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 25px;
@@ -173,4 +171,27 @@
   flex-direction: column;
   font-size: 20px;
   gap: 1.2em;
+}
+
+.footer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.footer-menu-list {
+  justify-self: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+}
+
+.footer-menu-item:not(:first-child) {
+  text-decoration: underline;
+}
+
+.footer-soc1als-list {
+  justify-self: end;
+  display: flex;
+  gap: 48px;
 }
