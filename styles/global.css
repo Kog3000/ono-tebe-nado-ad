@@ -36,3 +36,32 @@ img {
 button {
   font: inherit;
 }
+
+.header {
+  padding: 92px 50px;
+}
+
+.cover {
+  background: url('../images/cover.jpg') center/cover no-repeat;
+  padding: 50px;
+  padding-top: 165px;
+}
+
+.cover:not(:last-child),
+.about-auction {
+  margin-bottom: 180px;
+}
+
+.lots,
+.about-auction {
+  padding-inline: 24px;
+}
+
+.lots:not(:last-child) {
+  margin-bottom: 120px;
+}
+
+.footer {
+  padding-inline: 50px;
+  padding-bottom: 82px;
+}
