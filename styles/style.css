@@ -86,15 +86,15 @@
   margin-bottom: 27px;
 }
 
-.lots-title,
-.lots-link {
-  padding-left: 50px;
+.lots-title {
+  padding-left: 40px;
 }
 
 .lots-list {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 25px;
+  padding-left: 50px;
 }
 
 .lots-list:not(:last-child) {

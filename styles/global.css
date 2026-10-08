@@ -50,11 +50,6 @@ ul {
   list-style: none;
 }
 
-body {
-  width: 1100px;
-  box-sizing: border-box;
-}
-
 .header {
   padding: 92px 50px;
 }
