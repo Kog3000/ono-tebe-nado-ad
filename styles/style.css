@@ -84,12 +84,6 @@
   border: 1px solid #fff;
 }
 
-.lots-title {
-  text-transform: uppercase;
-  font-size: 40px;
-  font-weight: bold;
-}
-
 .lots-title:not(:last-child) {
   margin-bottom: 27px;
 }
@@ -149,4 +143,34 @@
 
 .lots-list-item:nth-child(3) {
   background: url('../images/card-lot-03.jpg') center/cover no-repeat;
+}
+
+.about-auction {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  align-content: center;
+  padding-top: 35px;
+}
+
+.about-auction-logo {
+  background-color: #000;
+  width: 240px;
+  aspect-ratio: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  margin-left: 47px;
+}
+
+.about-auction-body {
+  padding-top: 90px;
+}
+
+.about-auction-description {
+  padding-top: 100px;
+  display: flex;
+  flex-direction: column;
+  font-size: 20px;
+  gap: 1.2em;
 }
