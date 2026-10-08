@@ -42,7 +42,7 @@ button {
 }
 
 .cover {
-  background: url('../images/cover.jpg') center/cover no-repeat;
+  background: url('../images/cover.jpg') center/contain no-repeat;
   padding: 50px;
   padding-top: 165px;
 }
@@ -70,4 +70,8 @@ button {
   display: flex;
   flex-direction: column;
   list-style: none;
+}
+
+.overlay {
+  position: absolute;
 }
