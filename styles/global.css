@@ -68,6 +68,10 @@ body {
   box-sizing: border-box;
 }
 
+.last-letter {
+  letter-spacing: 0;
+}
+
 .cover:not(:last-child),
 .about-auction {
   margin-bottom: 180px;

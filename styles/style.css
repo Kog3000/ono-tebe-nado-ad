@@ -42,12 +42,12 @@
 
 .cover-title {
   font-size: 100px;
-  line-height: 1.5;
+  line-height: 1.3;
   letter-spacing: 30px;
   font-weight: bold;
   display: flex;
   flex-direction: column;
-  margin-bottom: 40px;
+  margin-bottom: 105px;
 }
 
 .cover-title span:nth-child(1) {
@@ -161,7 +161,7 @@
 }
 
 .about-auction-body {
-  padding-top: 90px;
+  padding-top: 100px;
 }
 
 .about-auction-description {
