@@ -27,3 +27,59 @@
   position: relative;
   min-height: 757px;
 }
+
+.cover-title,
+.cover-description {
+  position: relative;
+  z-index: 100;
+}
+
+.cover-title,
+.cover-description,
+.cover-description-button {
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.cover-title {
+  font-size: 100px;
+  line-height: 1.5;
+  letter-spacing: 30px;
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+}
+
+.cover-title span:nth-child(1) {
+  align-self: start;
+}
+
+.cover-title span:nth-child(2) {
+  align-self: center;
+}
+
+.cover-title span:nth-child(3) {
+  align-self: end;
+}
+
+.cover-title:not(:last-child) {
+  margin-bottom: 106px;
+}
+
+.cover-description {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 22px;
+}
+
+.cover-description-body {
+  line-height: 28px;
+  word-spacing: 18px;
+}
+
+.cover-description-button {
+  padding: 12px 32px;
+  background-color: transparent;
+  border: 1px solid #fff;
+}
