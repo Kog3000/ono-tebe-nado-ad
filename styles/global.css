@@ -60,9 +60,12 @@ body {
 }
 
 .cover {
+  position: relative;
   background: url('../images/cover.jpg') center/cover no-repeat;
-  padding: 50px;
+  padding-inline: 50px;
   padding-top: 165px;
+  height: 757px;
+  box-sizing: border-box;
 }
 
 .cover:not(:last-child),

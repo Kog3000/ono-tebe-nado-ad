@@ -47,6 +47,7 @@
   font-weight: bold;
   display: flex;
   flex-direction: column;
+  margin-bottom: 40px;
 }
 
 .cover-title span:nth-child(1) {
@@ -61,15 +62,13 @@
   align-self: end;
 }
 
-.cover-title:not(:last-child) {
-  margin-bottom: 106px;
-}
-
 .cover-description {
   display: flex;
   justify-content: space-between;
   align-items: center;
   font-size: 22px;
+  align-self: end;
+  margin-bottom: 50px;
 }
 
 .cover-description-body {
