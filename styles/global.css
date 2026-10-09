@@ -68,12 +68,12 @@ ul {
 }
 
 .cover:not(:last-child),
-.about-auction {
+.about {
   margin-bottom: 180px;
 }
 
 .lots,
-.about-auction {
+.about {
   padding-inline: 24px;
 }
 
@@ -86,7 +86,7 @@ ul {
   padding-bottom: 82px;
 }
 
-.address-list {
+.address {
   display: flex;
   flex-direction: column;
   list-style: none;
