@@ -96,9 +96,6 @@
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 25px;
-}
-
-.lots__card-list {
   margin-bottom: 30px;
 }
 
@@ -159,6 +156,7 @@
 .about__column {
   display: grid;
   grid-template-columns: 1fr 2fr;
+  gap: 20px;
   align-content: center;
   padding-top: 35px;
 }
